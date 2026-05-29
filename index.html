@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seeker AISoft | Desenvolvimento Sob Demanda</title>
+  
+  <!-- Google Fonts: Outfit and Inter for a modern look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-text">SEEKER</span><span class="logo-ai">AI</span><span class="logo-soft">SOFT</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contact" class="btn-primary-outline">Contato</a></li>
+      </ul>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="container hero-container">
+        <div class="hero-content fade-in-up">
+          <h1>Transformando ideias em <span class="text-gradient">Arquiteturas Robustas</span></h1>
+          <p>A Seeker AISoft é especializada em desenvolvimento de software sob demanda, integrando Inteligência Artificial e sistemas de alta performance para o seu negócio.</p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn-primary">Ver Projetos</a>
+            <a href="#contact" class="btn-secondary">Fale Conosco</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container about-container">
+        <div class="about-text scroll-reveal">
+          <h2 class="section-title">Sobre a <span class="text-gradient">Seeker AISoft</span></h2>
+          <p>Nascemos da paixão por criar soluções inovadoras que resolvem problemas complexos. Nosso foco é fornecer desenvolvimento sob medida com um nível de excelência técnica inquestionável.</p>
+          <p>Desde a criação de sistemas web de alta disponibilidade até a engenharia de aplicações desktop com pipelines de Inteligência Artificial, construímos tecnologia que escala.</p>
+          <div class="stats">
+            <div class="stat-item">
+              <h3>Inovação</h3>
+              <p>Soluções orientadas a IA</p>
+            </div>
+            <div class="stat-item">
+              <h3>Performance</h3>
+              <p>Arquiteturas Otimizadas</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual scroll-reveal">
+          <div class="glass-card visual-card">
+            <i class="fas fa-code branch-icon"></i>
+            <div class="code-lines">
+              <div class="line w-80"></div>
+              <div class="line w-60"></div>
+              <div class="line w-90"></div>
+              <div class="line w-40"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding bg-alt">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <h2 class="section-title">Nossos <span class="text-gradient">Serviços</span></h2>
+          <p>Entregamos soluções de ponta a ponta para tirar o seu projeto do papel.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card scroll-reveal glass-panel">
+            <div class="service-icon"><i class="fas fa-robot"></i></div>
+            <h3>Automação & IA</h3>
+            <p>Desenvolvimento de pipelines inteligentes, integração com APIs de IA e automação de processos complexos.</p>
+          </div>
+          <div class="service-card scroll-reveal glass-panel">
+            <div class="service-icon"><i class="fas fa-globe"></i></div>
+            <h3>Web Apps & Ecossistemas</h3>
+            <p>Aplicações web modernas (React, Vue, Node.js) desenhadas para alta disponibilidade e escalabilidade.</p>
+          </div>
+          <div class="service-card scroll-reveal glass-panel">
+            <div class="service-icon"><i class="fas fa-desktop"></i></div>
+            <h3>Sistemas Desktop</h3>
+            <p>Criação de softwares desktop nativos ou baseados em Electron para necessidades específicas do seu negócio.</p>
+          </div>
+          <div class="service-card scroll-reveal glass-panel">
+            <div class="service-icon"><i class="fas fa-server"></i></div>
+            <h3>Infraestrutura & Deploy</h3>
+            <p>Configuração de servidores, pipelines CI/CD e gerenciamento de hospedagem na nuvem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <h2 class="section-title">Nossas <span class="text-gradient">Obras</span></h2>
+          <p>Conheça alguns dos projetos arquitetados e desenvolvidos por nós.</p>
+        </div>
+        
+        <div class="portfolio-grid">
+          <!-- Seeker IA 3D -->
+          <div class="portfolio-item scroll-reveal">
+            <div class="portfolio-content glass-panel">
+              <div class="portfolio-tag">Software Desktop / IA</div>
+              <h3>Seeker IA 3D</h3>
+              <p>Um aplicativo desktop revolucionário focado em automatizar a criação de monstros 3D para o MMORPG RF Online.</p>
+              <ul class="portfolio-features">
+                <li><i class="fas fa-check-circle"></i> Pipeline completo: de Concept Art 2D para Modelo 3D animado usando IA.</li>
+                <li><i class="fas fa-check-circle"></i> Funcionalidade Anti-Copyright nativa.</li>
+                <li><i class="fas fa-check-circle"></i> Rigging e redução de polígonos automatizados.</li>
+                <li><i class="fas fa-check-circle"></i> Sistema de resiliência com rotação inteligente de chaves de API.</li>
+              </ul>
+            </div>
+            <div class="portfolio-image seeker-img-placeholder">
+              <div class="placeholder-text">
+                <i class="fas fa-cube"></i>
+                <span>Seeker IA 3D Interface</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PokeElite -->
+          <div class="portfolio-item reverse scroll-reveal">
+            <div class="portfolio-content glass-panel">
+              <div class="portfolio-tag">Web & Game Ecosystem</div>
+              <h3>PokeElite</h3>
+              <p>Um ecossistema completo para um MMORPG, integrando web, servidores e game client.</p>
+              <ul class="portfolio-features">
+                <li><i class="fas fa-check-circle"></i> Frontend moderno em React/Vite com tracking e SEO.</li>
+                <li><i class="fas fa-check-circle"></i> Backend seguro (Node.js/Express) integrado ao banco do jogo.</li>
+                <li><i class="fas fa-check-circle"></i> Launcher próprio com atualizador inteligente (Patch Server em VPS).</li>
+                <li><i class="fas fa-check-circle"></i> Infraestrutura controlada com scripts de deploy dedicados.</li>
+              </ul>
+            </div>
+            <div class="portfolio-image pokeelite-img-placeholder">
+              <div class="placeholder-text">
+                <i class="fas fa-gamepad"></i>
+                <span>PokeElite Ecosystem</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding bg-alt">
+      <div class="container">
+        <div class="contact-card glass-panel scroll-reveal">
+          <div class="contact-info">
+            <h2 class="section-title">Pronto para <br><span class="text-gradient">inovar?</span></h2>
+            <p>Tem uma ideia ou um gargalo técnico que precisa resolver? Vamos conversar sobre como podemos ajudar a sua empresa a alcançar o próximo nível tecnológico.</p>
+            <div class="contact-methods">
+              <div class="method">
+                <i class="fas fa-envelope"></i>
+                <span>contato@seekeraisoft.com</span>
+              </div>
+              <div class="method">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Atendimento Global</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="event.preventDefault();">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" rows="4" placeholder="Como podemos ajudar?"></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <span class="logo-text">SEEKER</span><span class="logo-ai">AI</span><span class="logo-soft">SOFT</span>
+      </div>
+      <p>&copy; 2026 Seeker AISoft. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
