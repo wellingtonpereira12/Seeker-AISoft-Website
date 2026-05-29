@@ -487,6 +487,53 @@ h1, h2, h3, h4 {
   background: linear-gradient(135deg, rgba(0,174,239,0.1) 0%, rgba(30,41,59,0.5) 100%);
 }
 
+/* Partners Section */
+.partners-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-main);
+  padding: 2rem;
+  width: 100%;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.partner-logo {
+  max-width: 80%;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));
+}
+
+.partner-info h3 {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.partner-info p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
 /* Contact Section */
 .contact-card {
   display: grid;
